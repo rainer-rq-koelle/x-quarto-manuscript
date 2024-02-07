@@ -23,17 +23,17 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 
 
 <title-group>
-<article-title>La Palma Earthquakes</article-title>
+<article-title>RQ’s La Palma Earthquakes</article-title>
 </title-group>
 
 <contrib-group>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
 <name>
-<surname>Purves</surname>
-<given-names>Steve</given-names>
+<surname>Koelle</surname>
+<given-names>Rainer RQ</given-names>
 </name>
-<string-name>Steve Purves</string-name>
+<string-name>Rainer RQ Koelle</string-name>
 
 <email>steve@curvenote.com</email>
 <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
@@ -92,7 +92,8 @@ administration</role>
 island of La Palma (Canary Islands, Spain) signaled the start of a
 volcanic crisis that still continues at the time of writing. Earthquake
 data is continually collected and published by the Instituto Geográphico
-Nacional (IGN). …</p>
+Nacional (IGN). This is now edits Rainer has done to play around wiht
+the template and get a feeling for waht is what.</p>
 </abstract>
 <kwd-group kwd-group-type="author">
 <kwd>La Palma</kwd>
@@ -107,8 +108,13 @@ Nacional (IGN). …</p>
 </front>
 
 <body>
+<sec id="overview">
+  <title>1 Overview</title>
+  <p>This paper does something. It is my first stab at working with the
+  Quarto-manuscript format.</p>
+</sec>
 <sec id="introduction">
-  <title>1 Introduction</title>
+  <title>2 Introduction</title>
   <fig id="fig-timeline">
     <caption><p>Figure 1: Timeline of recent earthquakes on La
     Palma</p></caption>
@@ -125,7 +131,7 @@ Nacional (IGN). …</p>
   <p>Eight eruptions have been recorded since the late 1400s
   (<xref alt="Figure 1" rid="fig-timeline">Figure 1</xref>).</p>
   <p>Data and methods are discussed in
-  <xref alt="Section 2" rid="sec-data-methods">Section 2</xref>.</p>
+  <xref alt="Section 3" rid="sec-data-methods">Section 3</xref>.</p>
   <p>Let <inline-formula><alternatives>
   <tex-math><![CDATA[x]]></tex-math>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
@@ -215,10 +221,10 @@ Nacional (IGN). …</p>
   the location of recent Earthquakes on La Palma.</p>
 </sec>
 <sec id="sec-data-methods">
-  <title>2 Data &amp; Methods</title>
+  <title>3 Data &amp; Methods</title>
 </sec>
 <sec id="conclusion">
-  <title>3 Conclusion</title>
+  <title>4 Conclusion</title>
 </sec>
 </body>
 
@@ -250,16 +256,16 @@ Nacional (IGN). …</p>
 <sub-article article-type="notebook" id="nb-8-nb-article">
 <front-stub>
 <title-group>
-<article-title>La Palma Earthquakes</article-title>
+<article-title>RQ’s La Palma Earthquakes</article-title>
 </title-group>
 <contrib-group>
 <contrib contrib-type="author" corresp="yes">
 <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
 <name>
-<surname>Purves</surname>
-<given-names>Steve</given-names>
+<surname>Koelle</surname>
+<given-names>Rainer RQ</given-names>
 </name>
-<string-name>Steve Purves</string-name>
+<string-name>Rainer RQ Koelle</string-name>
 
 <email>steve@curvenote.com</email>
 <role vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
@@ -302,13 +308,19 @@ administration</role>
 island of La Palma (Canary Islands, Spain) signaled the start of a
 volcanic crisis that still continues at the time of writing. Earthquake
 data is continually collected and published by the Instituto Geográphico
-Nacional (IGN). …</p>
+Nacional (IGN). This is now edits Rainer has done to play around wiht
+the template and get a feeling for waht is what.</p>
 </abstract>
 </front-stub>
 
 <body>
+<sec id="overview-nb-article">
+  <title>1 Overview</title>
+  <p>This paper does something. It is my first stab at working with the
+  Quarto-manuscript format.</p>
+</sec>
 <sec id="introduction-nb-article">
-  <title>1 Introduction</title>
+  <title>2 Introduction</title>
   <sec id="nb-code-cell-1-nb-article" specific-use="notebook-code">
   <code language="r script">eruptions &lt;- c(1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021)
 n_eruptions &lt;- length(eruptions)</code>
@@ -343,7 +355,7 @@ avg_years_between_eruptions</code>
   <p>Eight eruptions have been recorded since the late 1400s
   (<xref alt="Figure 1" rid="fig-timeline-nb-article">Figure 1</xref>).</p>
   <p>Data and methods are discussed in
-  <xref alt="Section 2" rid="sec-data-methods-nb-article">Section 2</xref>.</p>
+  <xref alt="Section 3" rid="sec-data-methods-nb-article">Section 3</xref>.</p>
   <p>Let <inline-formula><alternatives>
   <tex-math><![CDATA[x]]></tex-math>
   <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>x</mml:mi></mml:math></alternatives></inline-formula>
@@ -443,10 +455,10 @@ avg_years_between_eruptions</code>
   the location of recent Earthquakes on La Palma.</p>
 </sec>
 <sec id="sec-data-methods-nb-article">
-  <title>2 Data &amp; Methods</title>
+  <title>3 Data &amp; Methods</title>
 </sec>
 <sec id="conclusion-nb-article">
-  <title>3 Conclusion</title>
+  <title>4 Conclusion</title>
 </sec>
 </body>
 

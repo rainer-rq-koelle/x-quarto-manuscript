@@ -1,7 +1,7 @@
 ---
-title: La Palma Earthquakes
+title: RQ's La Palma Earthquakes
 author:
-  - name: Steve Purves
+  - name: Rainer RQ Koelle
     orcid: 0000-0002-0760-5497
     corresponding: true
     email: steve@curvenote.com
@@ -22,7 +22,7 @@ keywords:
   - La Palma
   - Earthquakes
 abstract: |
-  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
+  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). This is now edits Rainer has done to play around wiht the template and get a feeling for waht is what.
 plain-language-summary: |
   Earthquake data for the island of La Palma from the September 2021 eruption is found ...
 key-points:
@@ -34,6 +34,11 @@ citation:
   container-title: Earth and Space Science
 number-sections: true
 ---
+
+## Overview
+
+This paper does something. 
+It is my first stab at working with the Quarto-manuscript format. 
 
 ## Introduction
 
